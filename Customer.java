@@ -22,7 +22,7 @@ public class Customer {
         return accounts;
     }   
     
-    // Add an account to the customer
+    // Add an account to the customer's list of accounts
     public void addAccount(Account account) {
         accounts.add(account);
     }    
