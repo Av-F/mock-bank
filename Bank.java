@@ -12,7 +12,7 @@ public class Bank {
     }
     // Add an account using the name of the account as the key and the account as the value
     public void addAccount(Account account) {
-        accounts.put(account.getName(), account);
+         accounts.put(account.getID(), account);
         account.getCustomer().addAccount(account);
     }
     // Get the account id from a specific account in the list of accounts

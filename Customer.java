@@ -4,10 +4,10 @@ import java.util.List;
 public class Customer {
     //Variables
     private String name;
-    private int id;
+    private String id;
     private List<Account> accounts = new ArrayList<>();
     // Constructor
-    public Customer(String name, int id) {
+    public Customer(String name, String id) {
         this.name = name;
         this.id = id;
     }
@@ -15,7 +15,7 @@ public class Customer {
     public String getName() {
         return name;
     }   
-    public int getID() {
+    public String getID() {
         return id;
     }   
     public List<Account> getAccounts() {
