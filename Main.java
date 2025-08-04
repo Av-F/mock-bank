@@ -36,7 +36,7 @@ public class Main {
         //Make a boolean that checks if the payment was sucessful
         Runnable paymentTask = () -> {
         for(int i = 0; i < 3; i++) {
-        boolean payResult = bank.pay("1", 50.0, "Some Service");
+        boolean payResult = bank.pay("1", 50.0, "Friendly's");
         if(payResult) {
             System.out.println(Thread.currentThread().getName() +  "Payment successful");
         }
